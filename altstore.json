@@ -1,0 +1,34 @@
+{
+  "name": "JetRadar24 Sources",
+  "identifier": "com.jetradar24.altstore",
+  "subtitle": "Live Liquid Glass Flight Radar with JetPhotos",
+  "description": "The ultimate avgeek flight tracker featuring custom emoji plane markers, live ADS-B simulation, and JetPhotos integration.",
+  "iconURL": "https://raw.githubusercontent.com/aepikgamer-art/jetradar24/main/icon.png",
+  "website": "https://github.com/aepikgamer-art/jetradar24",
+  "sourceURL": "https://raw.githubusercontent.com/aepikgamer-art/jetradar24/main/altstore.json",
+  "apps": [
+    {
+      "name": "JetRadar24",
+      "bundleIdentifier": "com.jetradar24.app",
+      "developerName": "AvGeek Developer",
+      "subtitle": "Live Flight Radar & JetPhotos",
+      "localizedDescription": "JetRadar24 is a sleek, iOS-native flight tracking client featuring a Liquid Glass user interface, rotatable emoji plane markers (✈️), and integrated JetPhotos spotter feeds.",
+      "iconURL": "https://raw.githubusercontent.com/aepikgamer-art/jetradar24/main/icon.png",
+      "tintColor": "#00FFFF",
+      "size": 1548200,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-16",
+          "localizedDescription": "Initial release with Liquid Glass UI and JetPhotos tab.",
+          "downloadURL": "https://github.com/aepikgamer-art/jetradar24/releases/download/v1.0.0/JetRadar24.ipa"
+        }
+      ],
+      "permissions": {
+        "location": {
+          "usageDescription": "Required to center your radar on your current position."
+        }
+      }
+    }
+  ]
+}

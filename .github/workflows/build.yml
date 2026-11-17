@@ -18,8 +18,11 @@ jobs:
 
       - name: Build and Archive
         run: |
-          xcodebuild -project JetRadar24.xcodeproj \
-                     -scheme JetRadar24 \
+          xcodebuild -sdk iphoneos \
+                     -configuration Release \
+                     -derivedDataPath build \
+                     CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO || \
+          xcodebuild -scheme JetRadar24 \
                      -sdk iphoneos \
                      -configuration Release \
                      -derivedDataPath build \

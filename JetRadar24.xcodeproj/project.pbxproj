@@ -1,0 +1,185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		000000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					000000020000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000030000000000000003 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000040000000000000004;
+			productRefGroup = 000000050000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000020000000000000002 /* JetRadar24 */;
+			);
+		};
+		000000020000000000000002 /* JetRadar24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000060000000000000006 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				000000070000000000000007 /* Sources */;
+				000000080000000000000008 /* Frameworks */;
+				000000090000000000000009 /* Resources */;
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JetRadar24;
+			productName = JetRadar24;
+			productReference = 0000000A000000000000000A /* JetRadar24.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000030000000000000003 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000B000000000000000B /* Debug */;
+				0000000C000000000000000C /* Release */;
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000040000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				0000000D000000000000000D /* JetRadar24 */,
+				000000050000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000050000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000000A000000000000000A /* JetRadar24.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0000000D000000000000000D /* JetRadar24 */ = {
+			isa = PBXGroup;
+			children = (
+				0000000E000000000000000E /* JetRadar24App.swift */,
+				0000000F000000000000000F /* ContentView.swift */,
+				000000100000000000000010 /* JetPhotosView.swift */,
+			);
+			path = JetRadar24;
+			sourceTree = "<group>";
+		};
+		000000070000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000110000000000000011 /* JetRadar24App.swift in Sources */,
+				000000120000000000000012 /* ContentView.swift in Sources */,
+				000000130000000000000013 /* JetPhotosView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000080000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000090000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000A000000000000000A /* JetRadar24.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = JetRadar24.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0000000E000000000000000E /* JetRadar24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetRadar24App.swift; sourceTree = "<group>"; };
+		0000000F000000000000000F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000100000000000000010 /* JetPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetPhotosView.swift; sourceTree = "<group>"; };
+		000000110000000000000011 /* JetRadar24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000E000000000000000E /* JetRadar24App.swift */; };
+		000000120000000000000012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000F000000000000000F /* ContentView.swift */; };
+		000000130000000000000013 /* JetPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000100000000000000010 /* JetPhotosView.swift */; };
+		0000000B000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetradar24.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0000000C000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetradar24.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000060000000000000006 /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+					ALWAYS_SEARCH_USER_PATHS = NO;
+					CLANG_ENABLE_MODULES = YES;
+					CODE_SIGN_STYLE = Automatic;
+					CURRENT_PROJECT_VERSION = 1;
+					INFOPLIST_FILE = "";
+					IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+					MARKETING_VERSION = 1.0.0;
+					PRODUCT_BUNDLE_IDENTIFIER = com.jetradar24.app;
+					PRODUCT_NAME = "$(TARGET_NAME)";
+					SWIFT_OBJC_BRIDGING_HEADER = "";
+					SWIFT_VERSION = 5.0;
+				};
+				name = Debug;
+			};
+			buildConfigurationsList = (
+				000000060000000000000006 /* Build configuration list for PBXNativeTarget */,
+				000000060000000000000006 /* Build configuration list for PBXNativeTarget */,
+			);
+		};
+	};
+	rootObject = 000000010000000000000001 /* Project object */;
+}
